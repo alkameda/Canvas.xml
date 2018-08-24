@@ -1,0 +1,147 @@
+/ * ! Ayami CSS Artículo v1.0.2 * /
+
+/ * Cuerpo * /
+article  .post-body {
+    tamaño de letra : 1.1 rem ;
+    línea-altura : 1.75 rem ;
+    color : rgba ( 0 , 0 , 0 , .6 );
+}
+
+/ * tarjetas * /
+ código del artículo ,
+artículo  pre ,
+.article__spoiler  .wjs-container {
+    color de fondo : # f3f3f0 ;
+}
+
+/ * Encabezados * /
+artículo  h1 ,
+artículo  h2 ,
+artículo  h3 ,
+artículo  h4 ,
+artículo  h5 ,
+artículo  h6 {
+    color : rgba ( 0 , 0 , 0 , 0.7 );
+    margen : 0  0  1 rem ;
+    relleno : 0  0  1 rem ;
+    border-bottom : 1 px  discontinua  #eee ;
+}
+
+/ * Citacion * /
+artículo  blockquote {
+	fondo : #fafafa ;
+	border-left : 4 px  sólido ;
+	margen : 1.5 rem  1 rem ;
+	relleno : 1.5 rem  1 rem ;
+}
+artículo  blockquote : before {
+	opacidad : .5 ;
+	contenido : cita abierta ;
+	tamaño de letra : 4 rem ;
+	línea-altura : 0.1 em ;
+	margen-derecha : 0.25 em ;
+	vertical-alinear : -0.4 em ;
+}
+
+/ * Listas * /
+artículo  ul  li ,
+artículo  de  li {
+    margen : .5 rem  0  .5 rem  2 rem ;
+}
+artículo  ul  li {
+    list-style-type : círculo ;
+}
+artículo  de  li {
+    list-style-type : decimal ;
+}
+
+/ * Imagenes receptivo * /
+artículo  img {
+    ancho máximo : 100 % ;
+}
+
+/ * Enlaces * /
+artículo  a {
+    font-weight : 500 ;
+}
+
+/ * Parrafo * /
+artículo  p {
+    margen : 0 ;
+}
+
+/ * Tablas * /
+ tabla de artículos {
+    text-align : izquierda ;
+    border-left : 1 px  sólido ;
+    borde superior : 1 px  sólido ;
+}
+artículo  tabla  tbody  td ,
+ tabla de  artículos thead  th {
+    borde inferior : 1 px  sólido ;
+    relleno : 1 rem  1.5 rem ;
+    borde-derecha : 1 px  sólido ;
+}
+ tabla de  artículos thead {
+    fondo : black ;
+}
+ tabla de  artículos thead  th {
+    font-weight : 500 ;
+    relleno superior : 1.5 rem ;
+    fondo de relleno : 1.5 rem ;
+    espacio en blanco : nowrap ;
+}
+
+ tabla de  artículos tbody  tr : nth-child ( 2n + 1 ) {
+    fondo : black ;
+}
+
+/ * Codigo * /
+artículo  pre {
+    relleno : 1 rem ;
+    desbordamiento : automático ;
+    margen : 0 ;
+    border-radius : 3 px ;
+    pantalla : bloque ;
+    overflow-x : auto ;
+    tamaño de letra : 1 rem ;
+    línea-altura : 1.45 ;
+}
+ código del artículo {
+    relleno : .3 rem  .4 rem ;
+    espacio en blanco : nowrap ;
+}
+/ * Spoiler * /
+.article__spoiler  .wjs-container {
+    pantalla : ninguna ;	
+    relleno : 1.5 rem ;
+    margin-top : 1 rem ;
+}
+.article__spoiler  .wjs-container.is-active {
+    pantalla : bloque ;
+}
+.article__spoiler  .wjs-button {
+    frontera : 0  ninguno ;
+    esquema : 0  ninguno ;
+    relleno : .8 em  1 em ;
+	cursor : puntero ;
+	transición : opacidad .2 s ;
+}
+.article__spoiler  .wjs-button :: before {
+    tamaño de letra : 1.3 rem ;
+    flotar : izquierda ;
+    margen-derecha : .5 rem ;
+
+}
+.article__spoiler  .wjs-button : hover {
+	opacidad : .8 ;
+}
+
+/ * Bordes * /
+ tabla de artículos ,
+artículo  blockquote ,
+ tabla de  artículo thead ,
+artículo  tabla  tbody  td ,
+ tabla de  artículos thead  th {
+	border-color : # d6d6d6 ;
+}
